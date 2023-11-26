@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
+![](./Screenshot%202023-11-26%20195607.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Arafath-21/workit-landing-page](https://your-solution-url.com)
+- Live Site URL: [workit-creative.netlify.app](https://your-live-site-url.com)
 
 ## My process
 
@@ -82,6 +82,6 @@ Follow blogs, attend webinars, and participate in online communities to learn fr
 ## Author
 
 - Website - [Arafath A](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Arafath-21](https://www.frontendmentor.io/profile/yourusername)
 
 
