@@ -1,0 +1,18 @@
+{
+  "name": "workit-landing-page",
+  "version": "1.0.0",
+  "description": "Front End Mentor Chalenges",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/main.scss output.css",
+    "sass:watch": "sass --watch styles/main.scss:dist/main.css"
+  },
+  "author": "Arafath A",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "autoprefixer": "^10.4.16",
+    "bootstrap-icons": "^1.11.2",
+    "sass": "^1.69.5"
+  }
+}

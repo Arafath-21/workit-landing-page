@@ -1,0 +1,147 @@
+
+.heading {
+    margin: 0 auto; 
+    // display: block; 
+    position: relative;
+    overflow: hidden;
+   & nav {
+        justify-content: space-between;
+        padding: 55px;
+        padding-inline: 175px;
+    }   
+}
+
+main {
+        &.padding-sides {
+          padding: 50px; 
+          .hero-content {
+            text-align: center;
+            h1 {
+              color: var(--white);
+              .secondary-line {
+                border-bottom: 3px solid var(--Eucaplyptus); 
+              }
+            }
+            .bg-pattern-1{
+                position: absolute;
+                left: 0;
+                transform: translateX(-40%);
+            }
+          }
+        }
+      .hero-btn{
+        padding-top: 50px;
+        text-align: center;
+        .bg-pattern-2{
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-right: 0;
+          transform: translateX(70%);
+        }
+      }
+  }
+.svg-waves{
+ padding-bottom: 150px;
+}
+.phn-img{
+  width: 767px;
+  height: 441px;  
+  position: absolute;
+  bottom: -10px;
+  left: 49%;
+  transform: translateX(-45%);
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 14px;
+  }
+
+  .padding-sides {
+    padding-inline: 20px;
+  }
+
+  main.padding-sides {
+    padding: 40px;
+  }
+
+  .heading nav {
+    padding-inline: 60px;
+  }
+
+  main .hero-content h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  main .hero-content h1 .secondary-line {
+    border-bottom: 2px solid var(--Eucaplyptus);
+  }
+
+  main .hero-content .bg-pattern-1 {
+    transform: none;
+  }
+
+  main .hero-btn .bg-pattern-2 {
+    transform: translateX(40%);
+  }
+
+  .phn-img {
+    width: 479.153px;
+    height: 286.603px;
+    bottom: 100;
+    left: 10%;
+    transform: none;
+  }
+
+  /* Add more tablet-specific styles as needed */
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 12px;
+  }
+
+  .padding-sides {
+    padding-inline: 10px;
+  }
+
+  main.padding-sides {
+    padding: 10px;
+  }
+
+  .heading nav {
+    padding-inline: 10px;
+  }
+
+  main .hero-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  main .hero-content h1 .secondary-line {
+    border-bottom: 2px solid var(--Eucaplyptus);
+  }
+
+  main .hero-content .bg-pattern-1 {
+    display: none;
+  }
+
+  main .hero-btn .bg-pattern-2 {
+    display: none;
+  }
+.svg-waves{
+  padding-bottom: 100px;
+}
+  .phn-img {
+    width: 298.305px;
+    height: 178.159px;
+    bottom: 0;
+    left: 10;
+    transform: none;
+  }
+
+  /* Add more mobile-specific styles as needed */
+}

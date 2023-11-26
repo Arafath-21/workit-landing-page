@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope&display=swap");
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+:root {
+  --Dark-Purple: #24053E;
+  --Eucaplyptus: #44FFA1;
+  --accent-color: #584D62;
+  --sec-color: #FCF8FF;
+  --white: #FFFFFF;
+}
+
+:root {
+  --fraunces-font-family: "Fraunces", serif;
+  --fraunces-font-weight: 600;
+  --fraunces-font-style: normal;
+  --manrope-font-family: "Manrope",serif;
+  --manrope-font-weight: normal;
+  --manrope-font-style: normal;
+  --manrope-font-size: 18px;
+  --manrope-line-hieght: 32px;
+}
+
+/* Box Sizing Reset */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Normalize some default margin and padding values */
+body, h1, h2, h3, h4, h5, h6, p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol, li {
+  list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Additional resets and styles can be added based on your project's needs */
+h1 {
+  font-family: var(--fraunces-font-family);
+  font-weight: var(--fraunces-font-weight);
+  font-size: 80px;
+  line-height: 83px;
+  color: var(--Dark-Purple);
+}
+
+h2 {
+  font-family: var(--fraunces-font-family);
+  font-weight: var(--fraunces-font-weight);
+  font-size: 56px;
+  line-height: 64px;
+  color: var(--Dark-Purple);
+}
+
+h3 {
+  font-family: var(--fraunces-font-family);
+  font-weight: var(--fraunces-font-weight);
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--Dark-Purple);
+}
+
+P {
+  font-family: var(--manrope-font-family);
+  font-weight: var(--manrope-font-weight);
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--Dark-Purple);
+}
+
+/* Utility classes */
+.bg-dark {
+  background-color: var(--Dark-Purple);
+}
+
+.bg-light {
+  background-color: var(--sec-color);
+}
+
+.bg-green {
+  background-color: var(--Eucaplyptus);
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding-sides {
+  padding-inline: 132px;
+}
+
+.btn-primary {
+  color: var(--Dark-Purple);
+  background-color: var(--Eucaplyptus);
+  padding: 16px 32px;
+  font-size: 18px;
+  border: 2px solid var(--Eucaplyptus);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--white);
+  border-bottom: 2px solid var(--Eucaplyptus);
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  width: 161px;
+  height: 61px;
+  background: var(--Dark-Purple);
+  color: var(--Eucaplyptus);
+}
+
+.btn-secondary:hover {
+  color: var(--Eucaplyptus);
+}
+
+.cards {
+  padding-top: 150px;
+  padding-bottom: 300px;
+  align-items: center;
+  flex-wrap: wrap; /* Changed to wrap for better responsiveness */
+  justify-content: space-evenly;
+  /* Media Query for Tablet */
+  /* Media Query for Mobile */
+}
+.cards .card {
+  width: calc(33.33% - 30px); /* Adjusted width for three cards in a row */
+  max-width: 300px; /* Added max-width for better responsiveness */
+  height: 150px; /* Adjusted height for better spacing */
+  margin: 15px;
+  text-align: center;
+}
+.cards .card .bi {
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  margin: 5px;
+  color: var(--Dark-Purple);
+}
+.cards .card .card-heading {
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  .cards .card {
+    width: calc(50% - 30px); /* Adjusted width for two cards in a row */
+  }
+}
+@media (max-width: 480px) {
+  .cards .card {
+    width: 100%; /* Full width for one card in a row */
+    margin-bottom: 200px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+}
+
+.heading {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.heading nav {
+  justify-content: space-between;
+  padding: 55px;
+  padding-inline: 175px;
+}
+
+main.padding-sides {
+  padding: 50px;
+}
+main.padding-sides .hero-content {
+  text-align: center;
+}
+main.padding-sides .hero-content h1 {
+  color: var(--white);
+}
+main.padding-sides .hero-content h1 .secondary-line {
+  border-bottom: 3px solid var(--Eucaplyptus);
+}
+main.padding-sides .hero-content .bg-pattern-1 {
+  position: absolute;
+  left: 0;
+  transform: translateX(-40%);
+}
+main .hero-btn {
+  padding-top: 50px;
+  text-align: center;
+}
+main .hero-btn .bg-pattern-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0;
+  transform: translateX(70%);
+}
+
+.svg-waves {
+  padding-bottom: 150px;
+}
+
+.phn-img {
+  width: 767px;
+  height: 441px;
+  position: absolute;
+  bottom: -10px;
+  left: 49%;
+  transform: translateX(-45%);
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 14px;
+  }
+  .padding-sides {
+    padding-inline: 20px;
+  }
+  main.padding-sides {
+    padding: 40px;
+  }
+  .heading nav {
+    padding-inline: 60px;
+  }
+  main .hero-content h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  main .hero-content h1 .secondary-line {
+    border-bottom: 2px solid var(--Eucaplyptus);
+  }
+  main .hero-content .bg-pattern-1 {
+    transform: none;
+  }
+  main .hero-btn .bg-pattern-2 {
+    transform: translateX(40%);
+  }
+  .phn-img {
+    width: 479.153px;
+    height: 286.603px;
+    bottom: 100;
+    left: 10%;
+    transform: none;
+  }
+  /* Add more tablet-specific styles as needed */
+}
+/* Mobile Styles */
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 12px;
+  }
+  .padding-sides {
+    padding-inline: 10px;
+  }
+  main.padding-sides {
+    padding: 10px;
+  }
+  .heading nav {
+    padding-inline: 10px;
+  }
+  main .hero-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  main .hero-content h1 .secondary-line {
+    border-bottom: 2px solid var(--Eucaplyptus);
+  }
+  main .hero-content .bg-pattern-1 {
+    display: none;
+  }
+  main .hero-btn .bg-pattern-2 {
+    display: none;
+  }
+  .svg-waves {
+    padding-bottom: 100px;
+  }
+  .phn-img {
+    width: 298.305px;
+    height: 178.159px;
+    bottom: 0;
+    left: 10;
+    transform: none;
+  }
+  /* Add more mobile-specific styles as needed */
+}
+.founder {
+  padding: 50px 150px;
+}
+.founder .founder-img {
+  width: 450.287px;
+  height: 453px;
+}
+
+.founder-details {
+  position: absolute;
+  left: 530px;
+  transform: translateY(-100%);
+  text-align: left;
+  width: 750px;
+  padding-left: 55px;
+  padding-bottom: 35px;
+  background-color: var(--Dark-Purple);
+}
+.founder-details .founder-heading {
+  padding-top: 20px;
+}
+.founder-details .founder-heading h1 {
+  color: var(--white);
+}
+.founder-details .founder-description {
+  padding: 20px 0;
+}
+.founder-details .founder-description p {
+  color: var(--white);
+}
+.founder-details .btn {
+  padding: 8px 4px;
+  width: 190px;
+  height: 61px;
+}
+.founder-details .bg-pattern .bg-pattern-3 {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  transform: translate(30%, 60%);
+}
+
+footer .logo {
+  padding-top: 180px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.social-icons {
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding-bottom: 120px;
+}
+
+.icon-1:hover {
+  background-color: var(--Dark-Purple);
+}
+
+/*# sourceMappingURL=main.css.map */

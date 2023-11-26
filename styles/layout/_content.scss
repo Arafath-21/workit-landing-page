@@ -1,0 +1,45 @@
+.founder{
+    padding: 50px 150px;
+    .founder-img{
+        width: 450.287px;
+        height: 453px;
+    }    
+}
+.founder-details{
+    position: absolute;
+    left: 530px;
+    transform: translateY(-100%);
+    text-align: left;
+    width: 750px;
+    padding-left: 55px;
+    padding-bottom: 35px;
+    background-color: var(--Dark-Purple);
+    .founder-heading{
+        padding-top: 20px;
+        h1{
+            color: var(--white);
+        }
+    }
+    .founder-description{
+        padding: 20px 0;
+        p{
+            color: var(--white);
+        }
+    }
+    .btn{
+        padding: 8px 4px;
+        width: 190px;
+        height: 61px;
+    }
+    .bg-pattern{
+        .bg-pattern-3{
+            position: absolute;
+            bottom: 0;
+            right: 100px;
+            transform:translate(30%,60%);
+
+        }
+    }
+}
+
+  

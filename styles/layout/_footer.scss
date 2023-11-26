@@ -1,0 +1,16 @@
+footer{
+    .logo{
+        padding-top:180px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+.social-icons{
+    align-items: center;
+    justify-content:center;
+    gap: 28px;
+    padding-bottom: 120px;
+}
+.icon-1:hover{
+    background-color: var(--Dark-Purple);
+}

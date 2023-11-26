@@ -1,0 +1,22 @@
+/* Utility classes */
+.bg-dark {
+    background-color: var(--Dark-Purple);
+  }
+  .bg-light {
+    background-color: var(--sec-color);
+  }
+  .bg-green{
+    background-color: var(--Eucaplyptus);
+  }
+  .relative {
+    position: relative;
+  }
+  .flex {
+    display: flex;
+  }
+  .center{
+    text-align: center;
+  }
+  .padding-sides{
+    padding-inline: 132px;
+  }

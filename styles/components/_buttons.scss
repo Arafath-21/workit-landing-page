@@ -1,0 +1,23 @@
+.btn-primary{
+    color: var(--Dark-Purple);
+    background-color: var(--Eucaplyptus);
+    padding: 16px 32px;
+    font-size: 18px;
+    border: 2px solid var(--Eucaplyptus);
+    
+  }  
+  .btn-secondary{
+    background-color: transparent;
+    color: var(--white);
+    border-bottom: 2px solid var(--Eucaplyptus);
+    font-size: 18px;
+  }
+  .btn-primary:hover{
+    width: 161px;
+    height: 61px;  
+    background: var(--Dark-Purple);
+    color: var(--Eucaplyptus);
+  }
+  .btn-secondary:hover{
+    color: var(--Eucaplyptus);
+  }

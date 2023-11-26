@@ -1,0 +1,14 @@
+ **** copy the style files to your workspace
+ **** npm instal -y
+ **** npm i sass bootstrap font-awesome autoprefixer bootstrap-icons @fortawesome/fontawesome-free --save
+ **** change the json file 
+
+"scripts": {
+  "sass": "sass styles/main.scss output.css",
+  "sass:watch": "sass --watch styles/main.scss:output.css"
+}
+
+**** npm run sass
+**** produces the output.css
+**** test your css
+**** npm run sass:watch
