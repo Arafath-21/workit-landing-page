@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Arafath-21/workit-landing-page](https://your-solution-url.com)
-- Live Site URL: [workit-creative.netlify.app](https://your-live-site-url.com)
+- Solution URL: []([https://your-solution-url.com](https://github.com/Arafath-21/workit-landing-page))
+- Live Site URL: []([https://your-live-site-url.com](https://workit-creative.netlify.app/))
 
 ## My process
 
